@@ -1,0 +1,23 @@
+{
+	"name": "showgpxtracks",
+	"title": "jQuery Gpx Viewer",
+	"description": "jQuery plugin to show gpx track and altitude graph.",
+	"keywords": [
+		"gpx",
+		"jquery"
+	],
+	"version": "0.0.1",
+	"author": {
+		"name": "kssfilo",
+		"url": "http://kanasys.com/gtech/"
+	},
+	"licenses": [
+		{
+			"type": "MIT",
+			"url": "https://github.com/kssfilo/jquery.showgpxtracks/blob/master/LICENSE"
+		}
+	],
+	"dependencies": {
+		"jquery": ">=1.5.0"
+	}
+}

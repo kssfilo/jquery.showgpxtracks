@@ -1,0 +1,29 @@
+{
+  "name": "jquery-showgpxtracks",
+  "version": "0.1.0",
+  "keywords": [
+    "jquery-plugin"
+  ],
+  "author": {
+    "name": "kssfilo",
+    "email": "kssfilo@gmail.com",
+    "url": "http://kanasys.com/gtech/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kssfilo/jquery.showgpxtracks.git"
+  },
+  "scripts": {
+    "test": "grunt"
+  },
+  "devDependencies": {
+    "grunt-contrib-jshint": "~0.10.0",
+    "grunt-contrib-qunit": "~0.2.0",
+    "grunt-contrib-concat": "~0.3.0",
+    "grunt-contrib-uglify": "~0.2.0",
+    "grunt-contrib-watch": "~0.4.0",
+    "grunt-contrib-clean": "~0.4.0",
+    "grunt-contrib-connect": "~0.8.0",
+    "grunt": "~0.4.5"
+  }
+}

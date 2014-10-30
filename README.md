@@ -1,8 +1,11 @@
 #jquery.showgpxtracks
 
-##About
-
 jQuery plugin to show gpx track and altitude graph
+
+##Download
+
+* [jquery.showgpxtracks.js](https://raw.github.com/kssfilo/jquery.showgpxtracks/master/dist/jquery.showgpxtracks.js)
+* [jquery.showgpxtracks.min.js](https://raw.github.com/kssfilo/jquery.showgpxtracks/master/dist/jquery.showgpxtracks.min.js)
 
 ##Usage
 
@@ -10,7 +13,7 @@ jQuery plugin to show gpx track and altitude graph
 <html>
 	<head>
 		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.0/jquery.min.js"></script>
-		<script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?libraries=geometry&language=ja&sensor=false"></script>
+		<script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?libraries=geometry&language=en&sensor=false"></script>
 
 		<script src='jquery.showgpxtracks.js' ></script>
 

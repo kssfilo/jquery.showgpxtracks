@@ -52,7 +52,7 @@ The server which hosts gpx files have to support Access-Control-Allow-Origin hea
 	</head>
 
 	<body>
-		<div id='track' style='width:600px;height;400px;'></div>
+		<div id='track' style='width:600px;height:400px;'></div>
 	</body>
 </html>
 ```
@@ -76,7 +76,7 @@ The server which hosts gpx files have to support Access-Control-Allow-Origin hea
 	</head>
 
 	<body>
-		<div id='track' style='width:600px;height;400px;'></div>
+		<div id='track' style='width:600px;height:400px;'></div>
 	</body>
 </html>
 ```

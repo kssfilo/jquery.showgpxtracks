@@ -6,10 +6,10 @@
 		"gpx",
 		"jquery"
 	],
-	"version": "0.2.0",
+	"version": "1.0.0",
 	"author": {
 		"name": "kssfilo",
-		"url": "http://kanasys.com/gtech/"
+		"url": "https://kanasys.com/gtech/"
 	},
 	"licenses": [
 		{
@@ -18,6 +18,6 @@
 		}
 	],
 	"dependencies": {
-		"jquery": ">=1.5.0"
+		"jquery": ">=3.6.0"
 	}
 }

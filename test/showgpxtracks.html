@@ -3,19 +3,26 @@
 <head>
   <meta charset="utf-8">
   <title>jQuery Gpx Viewer Test Suite</title>
-  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.0/jquery.js"></script>
-  <script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?libraries=geometry&language=en&sensor=false"></script>
-  <link rel="stylesheet" href="../libs/qunit/qunit.css" media="screen">
-  <script src="../libs/qunit/qunit.js"></script>
-  <script src="../src/jquery.showgpxtracks.js"></script>
-  <script src="showgpxtracks_test.js"></script>
-  <script>window._$ = jQuery.noConflict(true);</script>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+
+  <script src="jquery.showgpxtracks.js"></script>
 </head>
 <body>
-  <div id="qunit"></div>
-  <div id="qunit-fixture"></div>
-  <div id="target"></div>
-  <div id="target2"></div>
-  <div id="target3"></div>
+	<h1>src attribute</h1>
+	<div class="track" style="width:800px;height:600px;" src="hiking.gpx" id="target"></div>
+	<h1>function parameter(gpx)</h1>
+	<div style="width:800px;height:600px;" id="textinput"></div>
+	<h1>function parameter(url)</h1>
+	<div style="width:800px;height:600px;" id="urlspec"></div>
+	<script>
+		$(function(){
+			$('.track').showGpxTracks();
+			var gpx='<?xml version="1.0" encoding="UTF-8"?><gpx version="1.1" xmlns="http://www.topografix.com/GPX/1/1"><trk><trkseg><trkpt lat="35.365968055555555" lon="138.73368555555555"><ele>3680.0</ele></trkpt><trkpt lat="35.36499416666667" lon="138.73331305555556"><ele>3712.0</ele></trkpt><trkpt lat="35.36499416666667" lon="138.73331305555556"><ele>3712.0</ele></trkpt><trkpt lat="35.36493166666666" lon="138.73317333333333"><ele>3712.0</ele></trkpt></trkseg></trk></gpx>';
+			$('#textinput').showGpxTracksString(gpx);
+			$('#urlspec').showGpxTracks('hiking.gpx');
+		});
+	</script>
 </body>
 </html>

@@ -14,9 +14,9 @@ jQuery plugin to show gpx track and altitude graph
 ```html
 <html>
 	<head>
-		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.0/jquery.min.js"></script>
-		<script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?libraries=geometry&language=en&sensor=false"></script>
-
+		<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+		<link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+		<script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
 		<script src='jquery.showgpxtracks.js' ></script>
 
 		<script>
@@ -39,9 +39,9 @@ The server which hosts gpx files have to support Access-Control-Allow-Origin hea
 ```html
 <html>
 	<head>
-		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.0/jquery.min.js"></script>
-		<script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?libraries=geometry&language=en&sensor=false"></script>
-
+		<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+		<link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+		<script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
 		<script src='jquery.showgpxtracks.js' ></script>
 
 		<script>
@@ -62,9 +62,9 @@ The server which hosts gpx files have to support Access-Control-Allow-Origin hea
 ```html
 <html>
 	<head>
-		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.0/jquery.min.js"></script>
-		<script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?libraries=geometry&language=en&sensor=false"></script>
-
+		<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+		<link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+		<script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
 		<script src='jquery.showgpxtracks.js' ></script>
 
 		<script>
@@ -84,5 +84,6 @@ The server which hosts gpx files have to support Access-Control-Allow-Origin hea
 ##History
 
 * 0.2.0: Added showGpxTracksString() and optionalUrl param of showGpxTracks()
+* 1.0.0: Using Leaflet.js instead of Google Maps API
 
 
